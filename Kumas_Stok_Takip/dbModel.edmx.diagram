@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ec846ef5cec440a9bdb5200116823834" Name="Diagram1">
+        <EntityTypeShape EntityType="KumasStokDBModel.Desen" Width="1.5" PointX="3" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="KumasStokDBModel.Kategori" Width="1.5" PointX="0.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="KumasStokDBModel.Ozellik" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="KumasStokDBModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KumasStokDBModel.Tur" Width="1.5" PointX="3" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="KumasStokDBModel.Urun" Width="1.5" PointX="7.5" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="KumasStokDBModel.YikamaBilgi" Width="1.5" PointX="5.25" PointY="5.5" IsExpanded="true" />
+        <AssociationConnector Association="KumasStokDBModel.FK_Ozellik_Desen" ManuallyRouted="false" />
+        <AssociationConnector Association="KumasStokDBModel.FK_Tur_Kategori" ManuallyRouted="false" />
+        <AssociationConnector Association="KumasStokDBModel.FK_Ozellik_Tur" ManuallyRouted="false" />
+        <AssociationConnector Association="KumasStokDBModel.FK_Ozellik_Tur1" ManuallyRouted="false" />
+        <AssociationConnector Association="KumasStokDBModel.FK_Ozellik_Tur2" ManuallyRouted="false" />
+        <AssociationConnector Association="KumasStokDBModel.FK_Urun_Ozellik" ManuallyRouted="false" />
+        <AssociationConnector Association="KumasStokDBModel.FK_Urun_Yikama" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="KumasStokDBModel.GirisBilgi" Width="1.5" PointX="5.375" PointY="9.75" />
+        <EntityTypeShape EntityType="KumasStokDBModel.Fatura" Width="1.5" PointX="9.75" PointY="1.25" />
+        <EntityTypeShape EntityType="KumasStokDBModel.FaturaDetay" Width="1.5" PointX="12" PointY="1.625" />
+        <AssociationConnector Association="KumasStokDBModel.FK_FaturaDetaylari_Faturalar" />
+        <AssociationConnector Association="KumasStokDBModel.FK_FaturaDetaylari_Urunler" />
+        <EntityTypeShape EntityType="KumasStokDBModel.Firma" Width="1.5" PointX="7.5" PointY="5.875" />
+        <AssociationConnector Association="KumasStokDBModel.FK_Fatura_Firma" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

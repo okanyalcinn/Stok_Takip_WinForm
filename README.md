@@ -4,6 +4,7 @@ Kumaş toptancısını baz alarak kullanıma sunduğum bir stok takip projesi.
 **-C#** <br>
 **-ADO.NET 📌** <br>
 **-LinQ** <br>
+---
 
 ✔ Kumaş ölçüleri, renk, yıkama ölçütleri, çamaşır suyu etkisi, çekme payı ve kumaşın cinsine göre bilgiler tutulmakta. 👍<br>
 ✔ Top bazlı stok takibi imkanı. 📋<br>
@@ -17,4 +18,5 @@ Temel amaç kullanıcı dostu olmak. Kullanım kolaylığı ve uygun bir görsel
 
 ---
 
->Not: Dosya içeriğinde **KumasStokDB.bak** (sql server 2014 sürümü ile uyumlu) veya **KumasStokDB.sql** scripti ile veri tabanını kurabilirsiniz.
+>Not: Dosya içeriğinde **KumasStokDB.bak** (sql server 2014 sürümü ile uyumlu) veya **KumasStokDB.sql** scripti ile veri tabanını kurabilirsiniz. <br> Kullanıcı adı: admin şifre: 1234
+

@@ -5,8 +5,7 @@ Kumaş toptancısını baz alarak kullanıma sunduğum bir stok takip projesi.
 **-ADO.NET 📌**
 **-LinQ** 
 
-✔ Kumaş ölçüleri, renk, yıkama ölçütleri, çamaşır suyu etkisi, çekme payı ve kumaşın cinsine göre bilgiler tutulmakta. 👍
-
+✔ Kumaş ölçüleri, renk, yıkama ölçütleri, çamaşır suyu etkisi, çekme payı ve kumaşın cinsine göre bilgiler tutulmakta. 👍<br>
 ✔ Top bazlı stok takibi imkanı. 📋
 
 ✔ Müşteri firma ekleyerek fatura kesimi yapılabilir. 📜 

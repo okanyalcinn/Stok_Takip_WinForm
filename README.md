@@ -1,6 +1,7 @@
 # Kumaş Stok Takibi 📊 &📜
 
-Kumaş toptancısını baz alarak kullanıma sunduğum bir stok takip projesi.
+Kumaş toptancısını baz alarak kullanıma sunduğum bir stok takip projesi.<br>
+
 **-C#** <br>
 **-ADO.NET 📌** <br>
 **-LinQ** <br>
